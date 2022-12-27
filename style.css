@@ -1,0 +1,90 @@
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: darkslategray;
+        color: aliceblue;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    img {
+        width: 350px;
+        height: 300px;
+    }
+    
+    h2 {
+        margin-bottom: 8px;
+    }
+    
+    .progresso {
+        height: 6px;
+        width: 0;
+        background-color: dimgray;
+    }
+    
+    .container {
+        background-color: cadetblue;
+        padding: 80px;
+        padding-top: 50px;
+    }
+    
+    .describe {
+        width: 350px;
+    }
+    
+    .duracao {
+        width: 350px;
+        margin-top: 10px;
+    }
+    
+    .brr {
+        width: 350px;
+        height: 6px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .ponto {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: -2px;
+        display: flex;
+    }
+    
+    .tempo {
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+    }
+    
+    .btn-play,
+    .btn-pause {
+        font-size: 50px;
+        cursor: pointer;
+    }
+    
+    #btt {
+        display: none;
+    }
+    
+    .setas {
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .btns {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
